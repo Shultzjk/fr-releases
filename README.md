@@ -75,7 +75,7 @@ Add a new array including class and apiKey to the file.
 }
 ```
 
-Also, if enabled, make sure to disable All In One Registration. When a registration process consists of more than one stage, it may include an optional **super stage**"** named `allInOneRegistration`. This stage is set outside of the stageConfigs array.
+Also, if enabled, make sure to disable All In One Registration. When a registration process consists of more than one stage, it may include an optional **super stage** named `allInOneRegistration`. This stage is set outside of the stageConfigs array.
 
 In `selfservice-registration.json`, confirm allInOneRegistration is set to false:
 
@@ -90,8 +90,7 @@ In `selfservice-registration.json`, confirm allInOneRegistration is set to false
 2. Copy idplus-stage-23.0.0.jar to the server: `/path/to/tomcat/webapps/openidm/bundle`
 
 3. Restart IDM. The ID+ Verification stage will now display in the order in which it was configured in Step 2. For example, if added after the emailValidation stage, it will display as follows.
-
-
+![alt-text][idplus_stage]
 
 Setup is now complete; you may begin using Socure’s ID+ Identity Verification service. For assistance, please contact your Socure Customer Service representative using the information received in the registration email. 
 
@@ -100,3 +99,5 @@ Setup is now complete; you may begin using Socure’s ID+ Identity Verification 
 [logo]: SOC_Logo_VT.png "Socure Logo"
 
 [dashboard]: socure_dash.png "Socure Dashboard Settings page"
+
+[idplus_stage]: forgerock_id_plus_stage.png "ID+ Stage Form"
