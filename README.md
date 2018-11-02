@@ -96,8 +96,8 @@ Setup is now complete; you may begin using Socure’s ID+ Identity Verification 
 
 
 
-[logo]: SOC_Logo_VT.png "Socure Logo"
+[logo]: https://raw.githubusercontent.com/Socure/fr-releases/master/SOC_Logo_VT.png "Socure Logo"
 
-[dashboard]: socure_dash.png "Socure Dashboard Settings page"
+[dashboard]: https://raw.githubusercontent.com/Socure/fr-releases/master/socure_dash.png "Socure Dashboard Settings page"
 
-[idplus_stage]: forgerock_id_plus_stage.png "ID+ Stage Form"
+[idplus_stage]: https://raw.githubusercontent.com/Socure/fr-releases/master/forgerock_id_plus_stage.png "ID+ Stage Form"
